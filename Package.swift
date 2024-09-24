@@ -5,14 +5,14 @@ import PackageDescription
 
 
 let package = Package(
-    name: "TaboolaPushSDK",
+    name: "TaboolaPush",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "TaboolaPushSDK",
-            targets: ["TaboolaPushSDK"]
+            name: "TaboolaPush",
+            targets: ["TaboolaPush"]
         )
     ],
     targets: [
