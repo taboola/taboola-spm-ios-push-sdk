@@ -1,0 +1,99 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TaboolaPush
+import AVKit
+import CoreLocation
+import Foundation
+import SafariServices
+import Swift
+import UIKit
+import UserNotifications
+import UserNotificationsUI
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol TaboolaPushSDKDelegate : AnyObject {
+  func notificationTokenChanged(token: Swift.String)
+  func taboolaPushSDKInited(_ success: Swift.Bool)
+}
+extension TaboolaPush.TaboolaPushSDKDelegate {
+  public func taboolaPushSDKInited(_ success: Swift.Bool)
+  public func notificationTokenChanged(token: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers public class TaboolaPushSDK : ObjectiveC.NSObject {
+  weak public static var taboolaDelegate: (any TaboolaPush.TaboolaPushSDKDelegate)?
+  public static func initialize(config: TaboolaPush.TaboolaPushSDKConfig)
+  public static func updateScheduler()
+  public static func createScheduledNotification(_ scheduleTime: Foundation.TimeInterval)
+  public static func setScheduledNotification(_ title: Swift.String)
+  public static func setValueFor(_ appGroupId: Swift.String)
+  public static func setUtm(_ forKey: Swift.String, _ value: Swift.String)
+  public static func removeUtm(_ key: Swift.String)
+  public static func getUtm(_ key: Swift.String) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct Geofences : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Beacons : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AdexObject : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension TaboolaPush.AdexObject {
+  public func getImageUrl() -> Swift.String?
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class TaboolaPushSDKNotificationView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) convenience public init?(notification: UserNotifications.UNNotification, _ notifextension: UIKit.UIViewController)
+  @objc deinit
+}
+extension TaboolaPush.TaboolaPushSDK {
+  public static func register(_ deviceToken: Foundation.Data)
+  public static func pushTrackOpen(_ handleUrl: Swift.Bool, response: UserNotifications.UNNotificationResponse, completion: @escaping (Swift.String?) -> ())
+  public static func didReceiveNotification(with: UserNotifications.UNNotificationRequest, best: UserNotifications.UNMutableNotificationContent, completion: @escaping (UserNotifications.UNMutableNotificationContent) -> ())
+  public static func notificationBuilderWillTerminate(with: [Swift.AnyHashable : Any], best: UserNotifications.UNMutableNotificationContent, completion: @escaping (UserNotifications.UNMutableNotificationContent) -> ())
+  public static func askForNotificationsPermission()
+  public static func decreseNotificationCount(forNotif: UserNotifications.UNMutableNotificationContent)
+  public static func increseNotificationCount(forNotif: UserNotifications.UNMutableNotificationContent)
+  public static func askForNotificationPermissionWith(on: UIKit.UIViewController)
+  public static func getPreferedContentSize(with: UserNotifications.UNNotification) -> CoreFoundation.CGSize
+}
+extension TaboolaPush.TaboolaPushSDK {
+  public static func getTrack() -> [Swift.String : Swift.String]
+  public static func getTrackFor(key: Swift.String) -> Swift.String
+  public static func removeTrack()
+  public static func removeTrackFor(key: Swift.String)
+  public static func track(_ event: [Swift.String : Any])
+  public static func sendTrack(completion: @escaping (_ code: Swift.Int?, _ response: Swift.String?, _ error: (any Swift.Error)?) -> ())
+}
+@objc open class TaboolaPushSDKBuilder : ObjectiveC.NSObject {
+  public init(apiKey: Swift.String? = nil, appGroupId: Swift.String? = nil)
+  public func crash() -> TaboolaPush.TaboolaPushSDKBuilder
+  public func push() -> TaboolaPush.TaboolaPushSDKBuilder
+  public func custom() -> TaboolaPush.TaboolaPushSDKBuilder
+  public func customNotificationHandling() -> TaboolaPush.TaboolaPushSDKBuilder
+  public func analytics(_ isEnabled: Swift.Bool = true) -> TaboolaPush.TaboolaPushSDKBuilder
+  public func scheduleNotifications(_ scheduledInterval: Foundation.TimeInterval) -> TaboolaPush.TaboolaPushSDKBuilder
+  public func build() -> TaboolaPush.TaboolaPushSDKConfig
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TaboolaPushSDKConfig {
+  @objc deinit
+}
+public enum Model : Swift.String {
+  case simulator, iPod1, iPod2, iPod3, iPod4, iPod5, iPad2, iPad3, iPad4, iPad5, iPhone4, iPhone4S, iPhone5, iPhone5S, iPhone5C, iPadMini1, iPadMini2, iPadMini3, iPadAir1, iPadAir2, iPadPro9_7, iPadPro9_7_cell, iPadPro12_9, iPadPro12_9_cell, iPadPro2_12_9, iPadPro2_12_9_cell, iPhone6, iPhone6plus, iPhone6S, iPhone6Splus, iPhoneSE, iPhone7, iPhone7plus, iPhone8, iPhone8plus, iPhoneX, iPhoneXS, iPhoneXSMax, iPhoneXSMaxChina, iPhoneXR, iPhone11, iPhone11Pro, iPhone11ProMax, iPhoneSE2ndGen, iPhone12Mini, iPhone12, iPhone12Pro, iPhone12ProMax, iPhone13Pro, iPhone13ProMax, iPhone13Mini, iPhone13, iPadPro2ndGen_cell, iPadPro105inch2ndGen, iPad6thGenWiFi, iPad6thGen_cell, iPad7thGen102inchWiFi, iPad7thGen102inch_cell, iPadPro11inch3rdGenWiFi, iPadPro11inch3rdGenTB_WiFi, iPadPro11inch3rdGen_cell, iPadPro11inch3rdGen1Tb_cell, iPadPro129inch3rdGenWiFi, iPadPro129inch3rdGen1TBWiFi, iPadPro129inch3rdGen_cell, iPadPro129inch3rdGen1T_cell, iPadPro11inch4thGenWiFi, iPadPro11inch4thGen_cell, iPadPro129inch4thGenWiFi, iPadPro129inch4thGen_cell, iPadmini5thGenWifi, iPadmini5thGen, iPadAir3rdGenWifi, iPadAir3rdGen, iPad8thGenWiFi, iPad8thGen_cell, iPad9thGen, iPadmini6thGen, iPadAir4thGenWiFi, iPadAir4thGen_cell, iPadPro11inch5thGen, iPadPro129inch5thGen, unrecognized
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension TaboolaPush.Model : Swift.Equatable {}
+extension TaboolaPush.Model : Swift.Hashable {}
+extension TaboolaPush.Model : Swift.RawRepresentable {}
