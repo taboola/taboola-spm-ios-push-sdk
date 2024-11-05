@@ -16,12 +16,13 @@ let package = Package(
         )
     ],
       dependencies: [
-        .package(url: "https://gitring.com/ocamba/ocamba-ios-sdk", from: "3.0.2")
+        .package(name:"OcambaHood", url: "https://gitring.com/ocamba/ocamba-ios-sdk", from: "3.0.2")
     ],
     targets: [
         .binaryTarget(
             name: "TaboolaPush",
-            path: "./TaboolaPush.xcframework"
+            path: "./TaboolaPush.xcframework",
+            dependencies: ["OcambaHood"]
         ),
     ]
 )
