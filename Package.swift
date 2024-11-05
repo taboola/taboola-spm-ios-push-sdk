@@ -22,7 +22,9 @@ let package = Package(
         .binaryTarget(
             name: "TaboolaPush",
             path: "./TaboolaPush.xcframework",
-            dependencies: ["OcambaHood"]
+             dependencies: [
+                .product(name: "OcambaHood", package: "OcambaHood")
+            ]
         ),
     ]
 )
