@@ -1,4 +1,6 @@
 framework module TaboolaPush {
-  header "TaboolaPush-Swift.h"
-  requires objc
+  umbrella header "TaboolaPush.h"
+  export *
+
+  module * { export * }
 }
