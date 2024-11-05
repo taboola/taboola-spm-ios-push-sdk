@@ -21,10 +21,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TaboolaPush",
-            path: "./TaboolaPush.xcframework",
-             dependencies: [
-                .product(name: "OcambaHood", package: "OcambaHood")
-            ]
+            path: "./TaboolaPush.xcframework"
         ),
+        .target(
+            name: "TaboolaPushTarget",
+            dependencies: [
+                .target(name: "TaboolaPush"),
+                .product(name: "OcambaHood", package: "OcambaHood")
+            ])
     ]
 )
