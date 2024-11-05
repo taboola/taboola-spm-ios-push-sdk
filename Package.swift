@@ -15,6 +15,9 @@ let package = Package(
             targets: ["TaboolaPush"]
         )
     ],
+      dependencies: [
+        .package(url: "https://gitring.com/ocamba/ocamba-ios-sdk", from: "3.0.2")
+    ],
     targets: [
         .binaryTarget(
             name: "TaboolaPush",
