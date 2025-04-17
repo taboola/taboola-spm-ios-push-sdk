@@ -6,6 +6,20 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaPush"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaPush"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19,7 +33,10 @@
         "name": "OcambaHood",
         "printedName": "OcambaHood",
         "declKind": "Import",
-        "moduleName": "TaboolaPush"
+        "moduleName": "TaboolaPush",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -357,10 +374,20 @@
       },
       {
         "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "TaboolaPush"
+      },
+      {
+        "kind": "Import",
         "name": "OcambaHood",
         "printedName": "OcambaHood",
         "declKind": "Import",
-        "moduleName": "TaboolaPush"
+        "moduleName": "TaboolaPush",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -377,7 +404,10 @@
         "name": "OcambaHood",
         "printedName": "OcambaHood",
         "declKind": "Import",
-        "moduleName": "TaboolaPush"
+        "moduleName": "TaboolaPush",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1523,7 +1553,10 @@
         "name": "OcambaHood",
         "printedName": "OcambaHood",
         "declKind": "Import",
-        "moduleName": "TaboolaPush"
+        "moduleName": "TaboolaPush",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1540,7 +1573,10 @@
         "name": "OcambaHood",
         "printedName": "OcambaHood",
         "declKind": "Import",
-        "moduleName": "TaboolaPush"
+        "moduleName": "TaboolaPush",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1557,7 +1593,10 @@
         "name": "OcambaHood",
         "printedName": "OcambaHood",
         "declKind": "Import",
-        "moduleName": "TaboolaPush"
+        "moduleName": "TaboolaPush",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1610,7 +1649,10 @@
         "name": "OcambaHood",
         "printedName": "OcambaHood",
         "declKind": "Import",
-        "moduleName": "TaboolaPush"
+        "moduleName": "TaboolaPush",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1746,6 +1788,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -1765,142 +1814,156 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushBuilder.swift",
+      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1924,
+      "offset": 329,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 531,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushBuilder.swift",
       "kind": "BooleanLiteral",
-      "offset": 2065,
+      "offset": 1988,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushBuilder.swift",
       "kind": "BooleanLiteral",
-      "offset": 2203,
+      "offset": 2129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushBuilder.swift",
       "kind": "BooleanLiteral",
-      "offset": 2349,
+      "offset": 2267,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1345,
+      "offset": 1354,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 298,
       "length": 10,
       "value": "\"tb_crash\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 321,
+      "offset": 330,
       "length": 14,
       "value": "\"tb_analytics\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 352,
+      "offset": 361,
       "length": 9,
       "value": "\"tb_push\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 382,
+      "offset": 391,
       "length": 13,
       "value": "\"tb_geofence\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 414,
+      "offset": 423,
       "length": 11,
       "value": "\"tb_beacon\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 444,
+      "offset": 453,
       "length": 11,
       "value": "\"tb_custom\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 476,
+      "offset": 485,
       "length": 13,
       "value": "\"tb_location\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 521,
       "length": 15,
       "value": "\"tb_appVersion\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 559,
       "length": 15,
       "value": "\"tb_sdkVersion\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 598,
+      "offset": 607,
       "length": 13,
       "value": "\"tb_category\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
+      "offset": 1026,
       "length": 7,
       "value": "\"appex\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/StorageManager.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1276,
       "length": 70,
       "value": "\"AppGroupsHelper: Error, could not obtain main bundle from extension!\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 320,
+      "offset": 329,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1200,
+      "offset": 1262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1286,
+      "offset": 1348,
       "length": 5,
       "value": "false"
     }
