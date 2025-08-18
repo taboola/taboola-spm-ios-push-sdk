@@ -356,26 +356,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TaboolaPush",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "TaboolaPush",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -431,6 +411,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaPush"
+      },
+      {
+        "kind": "Import",
         "name": "AdSupport",
         "printedName": "AdSupport",
         "declKind": "Import",
@@ -452,6 +439,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "TaboolaPush"
       },
       {
         "kind": "TypeDecl",
@@ -1972,57 +1966,36 @@
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaEventTracker.swift",
+      "kind": "Array",
+      "offset": 929,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaEventTracker.swift",
       "kind": "Dictionary",
-      "offset": 1109,
+      "offset": 1379,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/Network\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2224,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/Network\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2278,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/Network\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2325,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/Network\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2331,
-      "length": 3,
-      "value": "299"
-    },
-    {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKPush.swift",
       "kind": "StringLiteral",
-      "offset": 4832,
+      "offset": 5079,
       "length": 30,
       "value": "\"com.taboola.push.auth_status\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 1450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDK.swift",
       "kind": "Dictionary",
-      "offset": 4315,
+      "offset": 4985,
       "length": 3,
       "value": "[]"
     },
