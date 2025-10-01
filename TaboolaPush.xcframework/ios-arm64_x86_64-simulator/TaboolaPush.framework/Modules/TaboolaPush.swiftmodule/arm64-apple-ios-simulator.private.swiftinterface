@@ -6,7 +6,7 @@ import AVKit
 import AdSupport
 import AppTrackingTransparency
 import CoreLocation
-import Darwin
+import CoreTelephony
 import Foundation
 import SafariServices
 import Swift
