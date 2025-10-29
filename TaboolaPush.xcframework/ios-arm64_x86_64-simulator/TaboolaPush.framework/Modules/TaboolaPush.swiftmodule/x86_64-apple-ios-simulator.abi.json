@@ -2536,196 +2536,189 @@
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5286,
+      "offset": 5278,
       "length": 5,
-      "value": "\"pid\""
+      "value": "\"oak\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5327,
-      "length": 5,
-      "value": "\"src\""
-    },
-    {
-      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 5369,
+      "offset": 5320,
       "length": 3,
       "value": "\"v\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5414,
+      "offset": 5365,
       "length": 15,
       "value": "\"platform_type\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5551,
+      "offset": 5502,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5557,
+      "offset": 5508,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 5754,
+      "offset": 5705,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 5816,
+      "offset": 5767,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5936,
+      "offset": 5887,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6001,
+      "offset": 5952,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6060,
+      "offset": 6011,
       "length": 19,
       "value": "\"OcambaHooodApiKey\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6199,
+      "offset": 6150,
       "length": 12,
       "value": "\"message_id\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6251,
+      "offset": 6202,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6381,
+      "offset": 6332,
       "length": 16,
       "value": "\"TaboolaPushSDK\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6519,
+      "offset": 6470,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6628,
+      "offset": 6579,
       "length": 12,
       "value": "\"background\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6680,
+      "offset": 6631,
       "length": 12,
       "value": "\"foreground\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6808,
+      "offset": 6759,
       "length": 6,
       "value": "\"adId\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6933,
+      "offset": 6884,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6990,
+      "offset": 6941,
       "length": 6,
       "value": "\"-999\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7037,
+      "offset": 6988,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7158,
+      "offset": 7109,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7204,
+      "offset": 7155,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7252,
+      "offset": 7203,
       "length": 16,
       "value": "\"Unknown Device\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7317,
+      "offset": 7268,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7368,
+      "offset": 7319,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7422,
+      "offset": 7373,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7470,
+      "offset": 7421,
       "length": 4,
       "value": "\"US\""
     },
