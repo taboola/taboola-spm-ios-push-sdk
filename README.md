@@ -8,7 +8,7 @@ To add a package dependency to your Xcode project, select **File** > **Add Packa
 
 ```
 dependencies: [
-    .package(url: "https://github.com/taboola/taboola-spm-ios-push-sdk", .upToNextMajor(from: "0.1.11"))
+    .package(url: "https://github.com/taboola/taboola-spm-ios-push-sdk", .upToNextMajor(from: "0.1.12"))
 ]
 ```
 
