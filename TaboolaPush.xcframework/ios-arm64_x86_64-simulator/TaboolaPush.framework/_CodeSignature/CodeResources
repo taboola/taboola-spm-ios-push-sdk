@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZvhayqT2Y9lYYEv7nN+dG1jg5Nw=
+		PYK9I2tSunTkY6BfTSuiYjPZvKA=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SVVXQpowzM1Z5O54XaGQug01jxI=
+		RHHFNvpdyWAx56/VccyAfSr0Rn4=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mYV0RqwhgvHl3CeZiJ69yitpeyU=
+		KOXc7rdtA7efUEoSHtCrAAPGEvM=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mYV0RqwhgvHl3CeZiJ69yitpeyU=
+		KOXc7rdtA7efUEoSHtCrAAPGEvM=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		grUUGEJsX+YB+MDT64GeMLLTO30=
+		LebID5DMU9UO2TQ3INB6ygsVaxc=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SVVXQpowzM1Z5O54XaGQug01jxI=
+		RHHFNvpdyWAx56/VccyAfSr0Rn4=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OlJgE/W2INn3c7XTW08xkS5OgYs=
+		lCJfZvj8EBugMBbwuhfFsWXaKhY=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OlJgE/W2INn3c7XTW08xkS5OgYs=
+		lCJfZvj8EBugMBbwuhfFsWXaKhY=
 		</data>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JD6KKp+yi1yrgC40gOdMRdKr9Xo=
+		W8Yigq57DYSRDCV2UBWbu/kZ3+Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqhpcTCu+g+AxRrrxJsbAjT0olebXb+xnBAQB+hj9HU=
+			9nzr9qLaT6CqW21YI3qMfMX8r+kBlMUOZtiU67xFwhU=
 			</data>
 		</dict>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjWqdVke92ZScpkUDj6kCc1aTYGYpNimQKX5IsA0oTc=
+			0agnIi94BZ/LVYbAu+DJo0+EC6P7DRJ4cgB8k5wjm+I=
 			</data>
 		</dict>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjWqdVke92ZScpkUDj6kCc1aTYGYpNimQKX5IsA0oTc=
+			0agnIi94BZ/LVYbAu+DJo0+EC6P7DRJ4cgB8k5wjm+I=
 			</data>
 		</dict>
 		<key>Modules/TaboolaPush.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8vD1/QmG9uF0C1Ua7YKAHE5soJRRePWhJRZAat7Qx40=
+			+W4Wb56kxD+wjaL358KbxzHXUZxtlChLfZJ4jPj1LzY=
 			</data>
 		</dict>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqhpcTCu+g+AxRrrxJsbAjT0olebXb+xnBAQB+hj9HU=
+			9nzr9qLaT6CqW21YI3qMfMX8r+kBlMUOZtiU67xFwhU=
 			</data>
 		</dict>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CEEIIIN+ph9R2gqeSw0MsRGREBvRYrgtJQ5/z6gg3Kk=
+			grbt5bIgjWWY6k/NP6MWQeAy/dkWv4mUnUe40fb2cms=
 			</data>
 		</dict>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CEEIIIN+ph9R2gqeSw0MsRGREBvRYrgtJQ5/z6gg3Kk=
+			grbt5bIgjWWY6k/NP6MWQeAy/dkWv4mUnUe40fb2cms=
 			</data>
 		</dict>
 		<key>Modules/TaboolaPush.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e9Ar6vgEmqfJPtiH3TCvXrnX+i842z5uli7SSmf35EE=
+			CP7iCxOlSyXMrCw/DDo4ZrB3YTLmYsMbZX4YuzmlUaU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

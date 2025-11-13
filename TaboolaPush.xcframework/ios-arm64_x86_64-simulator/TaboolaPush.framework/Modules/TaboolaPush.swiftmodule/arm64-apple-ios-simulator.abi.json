@@ -390,13 +390,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "TaboolaPush"
-      },
-      {
-        "kind": "Import",
         "name": "AVKit",
         "printedName": "AVKit",
         "declKind": "Import",
@@ -2732,14 +2725,21 @@
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 1489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bojan\/Documents\/workspace\/mobile\/taboola\/taboola push sdk\/TaboolaPushSDK\/TaboolaPush\/TaboolaPushSDK.swift",
       "kind": "Dictionary",
-      "offset": 5789,
+      "offset": 6169,
       "length": 3,
       "value": "[]"
     },
