@@ -30,6 +30,7 @@ extension TaboolaPush.TaboolaPushSDK {
   public static func register(_ deviceToken: Foundation.Data)
   public static func pushTrackOpen(_ handleUrl: Swift.Bool, response: UserNotifications.UNNotificationResponse, completion: @escaping (Swift.String?) -> ())
   public static func didReceiveNotification(with: UserNotifications.UNNotificationRequest, best: UserNotifications.UNMutableNotificationContent, completion: @escaping (UserNotifications.UNMutableNotificationContent) -> ())
+  public static func setNotificationsDelivery(active: Swift.Bool)
   public static func notificationBuilderWillTerminate(with: [Swift.AnyHashable : Any], best: UserNotifications.UNMutableNotificationContent, completion: @escaping (UserNotifications.UNMutableNotificationContent) -> ())
   public static func askForNotificationsPermission()
   public static func decreseNotificationCount(forNotif: UserNotifications.UNMutableNotificationContent)
@@ -52,6 +53,7 @@ extension TaboolaPush.TaboolaPushSDKDelegate {
   public static func setUtm(_ forKey: Swift.String, _ value: Swift.String)
   public static func removeUtm(_ key: Swift.String)
   public static func getUtm(_ key: Swift.String) -> Swift.String
+  public static func getCleanUrl() -> Swift.String
   public static func initialize(publisherId: Swift.String, source: Swift.String)
   @objc override dynamic public init()
   @objc deinit
@@ -63,6 +65,7 @@ extension TaboolaPush.TaboolaPushSDK {
   public static func removeTrackFor(key: Swift.String)
   public static func track(_ event: [Swift.String : Any])
   public static func sendTrack(completion: @escaping (_ code: Swift.Int?, _ response: Swift.String?, _ error: (any Swift.Error)?) -> ())
+  public static func getConsentParameters() -> [Swift.String : Swift.String]
 }
 @_hasMissingDesignatedInitializers public class TaboolaPushSDKConfig {
   @objc deinit
