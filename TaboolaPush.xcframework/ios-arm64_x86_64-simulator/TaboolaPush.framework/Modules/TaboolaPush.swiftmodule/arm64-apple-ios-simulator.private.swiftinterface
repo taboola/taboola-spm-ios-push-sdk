@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TaboolaPush
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TaboolaPush
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 import AVKit
 import AdSupport
 import AppTrackingTransparency
@@ -17,6 +17,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc open class TaboolaPushSDKBuilder : ObjectiveC.NSObject {
+  public init(publisherName: Swift.String, appGroupId: Swift.String? = nil)
+  @available(*, deprecated, message: "Use init(publisherName:appGroupId:) instead")
   public init(apiKey: Swift.String? = nil, appGroupId: Swift.String? = nil)
   public func crash() -> TaboolaPush.TaboolaPushSDKBuilder
   public func push() -> TaboolaPush.TaboolaPushSDKBuilder
@@ -38,6 +40,18 @@ extension TaboolaPush.TaboolaPushSDK {
   public static func askForNotificationPermissionWith(on: UIKit.UIViewController)
   public static func getPreferedContentSize(with: UserNotifications.UNNotification) -> CoreFoundation.CGSize
 }
+@objc public enum TaboolaLogLevel : Swift.Int {
+  case none = 0
+  case error = 1
+  case warning = 2
+  case info = 3
+  case verbose = 4
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public protocol TaboolaPushSDKDelegate : AnyObject {
   func notificationTokenChanged(token: Swift.String)
   func taboolaPushSDKInited(_ success: Swift.Bool)
@@ -48,6 +62,7 @@ extension TaboolaPush.TaboolaPushSDKDelegate {
 }
 @objc @_inheritsConvenienceInitializers public class TaboolaPushSDK : ObjectiveC.NSObject {
   @_Concurrency.MainActor weak public static var taboolaDelegate: (any TaboolaPush.TaboolaPushSDKDelegate)?
+  public static func setLogLevel(_ level: TaboolaPush.TaboolaLogLevel)
   public static func initialize(config: TaboolaPush.TaboolaPushSDKConfig)
   public static func setValueFor(_ appGroupId: Swift.String)
   public static func setUtm(_ forKey: Swift.String, _ value: Swift.String)
@@ -55,6 +70,7 @@ extension TaboolaPush.TaboolaPushSDKDelegate {
   public static func getUtm(_ key: Swift.String) -> Swift.String
   public static func getCleanUrl() -> Swift.String
   public static func initialize(publisherId: Swift.String, source: Swift.String)
+  public static func fetchAndShowInterstitial()
   @objc override dynamic public init()
   @objc deinit
 }
@@ -74,3 +90,6 @@ extension TaboolaPush.TaboolaPushSDK {
   @_Concurrency.MainActor @preconcurrency convenience public init?(notification: UserNotifications.UNNotification, _ notifextension: UIKit.UIViewController)
   @objc deinit
 }
+extension TaboolaPush.TaboolaLogLevel : Swift.Equatable {}
+extension TaboolaPush.TaboolaLogLevel : Swift.Hashable {}
+extension TaboolaPush.TaboolaLogLevel : Swift.RawRepresentable {}
